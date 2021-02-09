@@ -9,9 +9,6 @@ module.exports = merge(common,{
         hot: true
     },
     plugins: [
-        {optimization: {
-            namedModules: true
-          }},
         new webpack.HotModuleReplacementPlugin()
     ]
 })
